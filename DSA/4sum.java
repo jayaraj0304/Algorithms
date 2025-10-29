@@ -15,6 +15,7 @@ class Solution {
                     sum+=nums[k];
                     sum+=nums[l];
                     if(sum==target){
+                        //check the target
 
                         res.addd(Arrays.asList(nums[i],nums[j],nums[k],nums[l]));
                        int currentK = nums[k], currentL = nums[l];
