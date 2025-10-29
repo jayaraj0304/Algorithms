@@ -3,6 +3,7 @@
 
         // Step 1: Sort the array
         Arrays.sort(nums);
+        //nums will be sorted
 
         // Step 2: Fix one element and use two-pointer approach
         for (int i = 0; i < nums.length - 2; i++) {
