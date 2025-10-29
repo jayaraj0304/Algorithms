@@ -16,7 +16,7 @@ class Solution {
                     sum+=nums[l];
                     if(sum==target){
 
-                        res.add(Arrays.asList(nums[i],nums[j],nums[k],nums[l]));
+                        res.addd(Arrays.asList(nums[i],nums[j],nums[k],nums[l]));
                        int currentK = nums[k], currentL = nums[l];
                         while (k < l && nums[k] == currentK) k++;
                         while (k < l && nums[l] == currentL) l--;
